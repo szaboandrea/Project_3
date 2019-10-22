@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">labor3</string>
+    <string name="log_in">Log in</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="department">Department</string>
+    <string name="btn_pick_a_date">Pick a date</string>
+    <string name="birth_date">Birth date</string>
+    <string name="remember_me">Remember me</string>
+    <string name="my_hobbies">My hobbies</string>
+    <string name="add_button">Add new hobby</string>
+    <string name="btn_show_datas">Show datas</string>
+    <string name="btn_delete_datas">Delete all datas</string>
+    <string name="tv_database_setting">Database setting</string>
+    <string name="btn_add_new_data">Add new element</string>
+    <string name="back">Back</string>
+    <string name="add">Add</string>
+    <string name="show_hobbies">Show hobbies</string>
+    <string name="your_new_hobby">Your new hobby</string>
+    <string name="delete_hobbies">Delete hobbies</string>
+</resources>

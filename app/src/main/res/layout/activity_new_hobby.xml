@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tv_add_new_hobby"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewHobbyActivity">
+
+    <TextView
+        android:id="@+id/tv_add_hobby_new"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="81dp"
+        android:gravity="center"
+        android:text="@string/add_button"
+        android:textColor="#0F7569"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/et_hobby_name"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="30dp"
+        android:autofillHints="@string/your_new_hobby"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/your_new_hobby"
+        android:inputType="textPersonName"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_add_hobby_new" />
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="51dp"
+        android:layout_marginBottom="231dp"
+        android:background="#0F7569"
+        android:text="@string/add"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_show_hobbies"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_hobby_name" />
+
+    <Button
+        android:id="@+id/btn_show_hobbies"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="231dp"
+        android:background="#0F7569"
+        android:text="@string/show_hobbies"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_hobby_name" />
+</androidx.constraintlayout.widget.ConstraintLayout>
