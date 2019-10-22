@@ -18,4 +18,5 @@
     <string name="show_hobbies">Show hobbies</string>
     <string name="your_new_hobby">Your new hobby</string>
     <string name="delete_hobbies">Delete hobbies</string>
+    <string name="log_out">Log out</string>
 </resources>
