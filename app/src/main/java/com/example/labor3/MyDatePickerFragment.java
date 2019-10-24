@@ -26,7 +26,7 @@ public class MyDatePickerFragment extends DialogFragment {
     private DatePickerDialog.OnDateSetListener dateSetListener = new DatePickerDialog.OnDateSetListener() {
         public void onDateSet(DatePicker view, int year, int month, int day) {
             TextView tvBirthDate = getActivity().findViewById(R.id.tv_birth_date);
-            text = "Birth date: " + view.getYear() + "."  + (view.getMonth()+1) + "." + view.getDayOfMonth();
+            text = view.getYear() + "."  + (view.getMonth()+1) + "." + view.getDayOfMonth();
             tvBirthDate.setText(text);
         }
     };
